@@ -22,7 +22,7 @@ public class MyDateTest {
 			System.out.println("월 입력 >>(0은 종료)");
 			
 			int month=sc.nextInt();
-			if(month >=0 && month <12) {
+			if(month >=0 && month <=12) {
 				md.setMonth(month);//111
 				break;
 			}else {

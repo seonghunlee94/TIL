@@ -15,7 +15,7 @@ public class MyDate {
 	//같은 클래스에서만 ... 접근 가능... 다른 클래스에서 접근 불가
 	private int month;
 	private int day;
-	private int monthLastDay;
+	
 	
 	public void setMonth(int month) {
 		//invalid한 값이 전달되더라도 필드 초기화 되기 직전에 걸러낼 수 잇다.
