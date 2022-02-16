@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .p1 {
+            /* border: 2px solid #4d9fff; */
+            /* border: 2px dotted #4d9fff; */
+            border: 2px dashed #4d9fff;
+            /* 테두리의 두깨(width), 선의 종류(style), 색깔(color) */
+            /* 일반적인 선 -> solid */
+            /* 점선 -> dotted */
+            /* 파선 -> dashed  */
+        }
+
+        .p2 {
+            /* 다채로운 테두리를 적용해야 할 때 */
+            border-top: 3px dotted #4d9fff;
+            border-bottom: 2px dashed red;
+            border-left: 5px solid green;
+            /* 테두리를 없애고 싶을 때 */
+            border: 0;
+
+        }
+
+        .input {
+            /* 테두리를 없애고 싶을 때 */
+            border-top: 0;
+            border-bottom: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>안녕하세요</h1>
+    <p class="p1">Box Model 알아보기</p>
+    <p class="p2">먼저 Box Model 소개입니다.</p>
+    <input class="input">
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        .p1 {
+            width: 200px;
+            /* border: 2px solid green; */
+            padding: 30px;
+            /* border-radius: 100px; */
+            /* background-color: transparent; */
+            /* transparent 배경색 투명하게 만들기
+                기본값이기 때문에 똑같이 나온다.
+                하지만 어떤 경우에는 기본값이 있어도
+                확실히 표현하기 위해 사용하는 경우가 있다. */
+
+            /* 그림자 입히는 법 */
+            /* box-shadow: none; */
+
+            /* box-shadow: 10px 5px greenyellow; */
+            /* 위 아래 위치, 양쪽 위치, 색상 */
+
+
+            /* box-shadow: 10px 5px 5px greenyellow; */
+            /* 위 아래 위치, 양쪽 위치, 그림자 흐림도 , 색상 */
+
+            box-shadow: 10px 5px 5px 3px greenyellow;
+            /* 위 아래 위치, 양쪽 위치, 그림자 흐림도 , 그림자 크기, 색상 */
+
+        }
+
+        .p2 {
+            margin-top: 50px;
+            box-shadow: -5px -10px yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>안녕하세요</h1>
+    <p class="p1">Box Model 알아보기</p>
+    <p class="p2">그림자 위로 주기 위해 -값 px 주기</p>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        h1 {
+            border: 1px solid red;
+        }
+
+        .p1 {
+            border: 1px solid red;
+            /* padding-top: 50px;
+            padding-bottom: 20px;
+            padding-left: 80px;
+            padding-right: 65px; */
+            /* 한 줄로 요약 */
+            /* padding: 50px 65px 20px 80px; */
+            padding: 50px 25px;
+
+            /* margin: 80px 30px 75px 50px; */
+            width: 500px;
+            /* 기본적으로 왼쪽으로 쏠린다. 그것을 방지하기 위해서 */
+            /* margin-left: auto;
+            margin-right: auto;  */
+            /* auto -> 브라우저야 알아서 계산해줘! */
+            /* 위 아래로 margin은 없고, 양쪽으로 margin이 같을시 */
+            margin: 30px auto;
+
+        }
+
+        .p2 {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>안녕하세요</h1>
+    <p class="p1">Box Model 알아보기</p>
+    <p class="p2">먼저 Box Model 소개입니다.</p>
+</body>
+
+</html>

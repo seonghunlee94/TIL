@@ -1,0 +1,12 @@
+.div1 {
+    height: 500px;
+    border: 5px solid green;
+    background-image: url("image/김태리.jpg");
+    background-repeat: no-repeat;
+    /* background-repeat: repeat; */
+    /* repeat은 반복 여부, 반복해서 빈 공간을 채워준다. */
+    background-size: cover;
+    /* 배경을 채우면서도 원래 비율을 유지한다.*/
+    /* 어디를 자를지 고민 */
+    background-position: center center;
+}
