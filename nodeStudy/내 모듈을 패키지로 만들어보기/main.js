@@ -4,7 +4,7 @@ const express = require('express');
 
 const app = express();
 
-users = ['Tom', 'Andy', 'Jessica', 'Pual'];
+users = ['Tom', 'Andy', 'Jessica', 'Pual', 'Codeit', 'mihun'];
 
 app.get('/', (request, response) => {
   response.end(`<h1>Welcome!</h1>`);
